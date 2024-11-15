@@ -35,7 +35,7 @@ affine_datamodule = affine_DataModule(
 data_module = affine_datamodule
 ```
 
-#### Experiment VI.B.1 TODO: revert commit and test
+#### Experiment VI.B.1
 For the naive use no scaling, set `self.scale_factor = 1.0` inside `affine.py`
 
 #### Experiment VI.B.2
