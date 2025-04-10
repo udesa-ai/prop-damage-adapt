@@ -1,11 +1,11 @@
 Code for "Propeller Damage Detection: Adapting Models to Diverse UAV Sizes" Submitted to IEEE Robotics and Automation Letters.
 
 ## Abstract
-This study introduces a methodology to train a model for detecting propeller damage in unmanned aerial vehicles (UAVs), and demonstrates how this model can be modified for use in various UAV sizes through a novel domain adaptation method anchored in the vehicles' physics. The damage detection model is trained by simulating propeller failure, specifically by chipping away the tip of a propeller. A key feature is that the detection model leverages only inertial sensors that are standard in commercial UAVs, making it broadly applicable without the need for additional hardware.
+This manuscript introduces a transfer learning method for adapting propeller fault detection neural networks to different unmanned aerial vehicles (UAVs). After training a simple model for detecting if any propeller in a specific vehicle has a failure (in this case, a chipped tip), a domain adaptation based in the vehicles' physics is performed in order to use the same model to detect failures in vehicles with different structures, weights, or motor-propeller sets. A key feature is that the detection model uses only inertial sensors that are standard in commercial UAVs, making it broadly applicable without the need for additional hardware.
 
 ## Video
-[![Video thumbnail](https://github.com/user-attachments/assets/1f02103a-21a9-4bab-a56d-0cc59ae2c990)](https://www.youtube.com/watch?v=i1G_ICewvB0)
-https://www.youtube.com/watch?v=i1G_ICewvB0
+[![Video thumbnail](https://github.com/user-attachments/assets/1f02103a-21a9-4bab-a56d-0cc59ae2c990)](https://www.youtube.com/watch?v=MXNc1VfQ0Y8)
+https://www.youtube.com/watch?v=MXNc1VfQ0Y8
 
 ## To run
 
